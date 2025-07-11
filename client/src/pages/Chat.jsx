@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from "react";
-import Header from "../components/Header";
-import ChatBox from "../components/Chatbox";
-import InputBox from "../components/InputBox";
+import ChatBox from './../components/ChatBox';
+import Header from './../components/Header';
+import InputBox from './../components/InputBox';
 
 const Chat = () => {
   const [messages, setMessages] = useState([
