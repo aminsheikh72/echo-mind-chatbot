@@ -1,6 +1,7 @@
 import { forwardRef } from "react"
-import Message from "./Message"
-import TypingIndicator from "./TypingIndicator"
+import Message from './Message';
+import TypingIndicator from './TypingIndicator';
+
 
 
 const ChatBox = forwardRef(({ messages, isTyping }, ref) => {
