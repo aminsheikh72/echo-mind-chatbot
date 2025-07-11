@@ -37,7 +37,7 @@ const Chat = () => {
     }
   };
 
-  // Auto scroll to bottom
+  
   useEffect(() => {
     chatBoxRef.current?.scrollTo({ top: chatBoxRef.current.scrollHeight, behavior: "smooth" });
   }, [messages]);

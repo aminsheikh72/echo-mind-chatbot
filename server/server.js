@@ -7,7 +7,7 @@ const app = express();
 const PORT = process.env.PORT || 4000;
 
 const allowedOrigins = [
-  "https://trip-planner-topaz-sigma.vercel.app"
+  "https://echo-mind-chatbot.vercel.app"
 ];
 
 const corsOptions = {
@@ -26,7 +26,7 @@ const corsOptions = {
 
 app.use(cors(corsOptions));
 
-// ✅ Allow preflight for all routes
+//  Allow preflight for all routes
 app.options(/^.*$/, cors(corsOptions));
 
 // Middlewares
